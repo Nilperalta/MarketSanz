@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoesMarket</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font awesomw cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+
+<!--Header section starts-->
+ <header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo">M.Sanz</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">sobre nosotros</a>
+        <a href="#coleccion">Categorías</a>
+        <a href="#products">productos</a>
+        
+        
+    </nav>
+
+    <div class="icons">
+        <a href="https://wa.me/51926588816" class="fa-brands fa-whatsapp" target="_blank"></a>
+    </div>
+ </header>
+
+<!--Section Home-->
+
+<section class="home" id="home">
+
+    <div class="slide-container active" >
+        <div class="slide">
+
+            <div class="content">
+                <span>nike red shoes</span>
+                <h3>nike metcon shoes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere at dolore deserunt saepe 
+                    autem, sequi voluptate dicta voluptates perspiciatis temporibus.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="image">
+                <img src="images/home-shoe-1.png" class="shoe"  alt="">
+            </div>
+        </div>
+    </div>
+
+      <div class="slide-container">
+
+        <div class="slide">
+
+            <div class="content">
+                <span>nike blue shoes</span>
+                <h3>nike metcon shoes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere at dolore deserunt saepe 
+                    autem, sequi voluptate dicta voluptates perspiciatis temporibus.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="image">
+                <img src="images/home-shoe-2.png" class="shoe"  alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+
+            <div class="content">
+                <span>nike white shoes</span>
+                <h3>nike metcon shoes</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere at dolore deserunt saepe 
+                    autem, sequi voluptate dicta voluptates perspiciatis temporibus.</p>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="image">
+                <img src="images/home-shoe-3.png" class="shoe"  alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+
+<!--incia la sección about-->
+    <section class="about" id="about">
+        <h1 class="heading"><span>Nosotros</span></h1>
+
+        <div class="row">
+            <div class="video-container">
+                <video src="videos/video-2.mp4" loop autoplay muted></video>
+                <!--<h3>best flower sellers</h3>-->
+            </div>
+
+            <div class="content">
+                <h3>¿Por qué elegirnos?</h3>
+                <p>somos una marca distinguida en el ámbito de los reproductores de sonido, de la más alta calidad en 
+                    todos nuestros productos,  además de ser productos importados y con garantía por todo un año, según terminos y condiciones.</p>
+                <p>Los fundadores de la empresa son: </p>
+                <a href="#" class="btn">leer más</a>
+
+            </div>
+        </div>
+    </section>
+    
+
+    <!--incia sección iconos-->
+    <section class="icons-container">
+
+        <div class="icons">
+            <img src="images/icono-1.png" alt="" class="img-us">
+            <div class="info">
+            <h3>Delivery gratis</h3>
+            <span>En todas las órdenes</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="images/icono-2.png" alt="" class="img-us">
+            <div class="info">
+            <h3>cambios y devoluciones</h3>
+            <span>garantía</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="images/icono-3.png" alt="" class="img-us">
+            <div class="info">
+            <h3>ofertas & regalos</h3>
+            <span>En todas las órdenes</span>
+            </div>
+        </div>
+
+        <div class="icons">
+            <img src="images/icono-4.png" alt="" class="img-us">
+            <div class="info">
+            <h3>pagos seguros</h3>
+            <span>protegido por paypal</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!--sección género / coleccion-->
+    <section class="genero" id="coleccion">
+
+        <h1 class="heading"><span>Categorías</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="content">
+                    <h3>Mujeres</h3>
+                    <a href="#">ver colección</a>
+                </div>
+                <img src="images/genero-M.png" alt="">
+            </div>
+
+            <div class="box">
+                <div class="content">
+                    <h3>Varones</h3>
+                    <a href="#">ver colección</a>
+                </div>
+                <img src="images/genero-H.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Sección Más vendidos-->
+     <section class="destacados" id="destacados">
+
+        <h1 class="heading"><span>Los más vendidos</span></h1>
+        
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/Destacado-1.png" alt="">
+
+                <div class="content">
+                    <h3>Zapato</h3>
+                    <div class="price">s/120.99 <span>s/666</span></div>
+                    <p>2 colores</p>
+                    <a href="#" class="btn">Pedir</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Destacado-1.png" alt="">
+
+                <div class="content">
+                    <h3>Zapato</h3>
+                    <div class="price">s/120.99 <span>s/666</span></div>
+                    <p>2 colores</p>
+                    <a href="#" class="btn">Pedir</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Destacado-1.png" alt="">
+
+                <div class="content">
+                    <h3>Zapato</h3>
+                    <div class="price">s/120.99 <span>s/666</span></div>
+                    <p>2 colores</p>
+                    <a href="#" class="btn">Pedir</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/Destacado-1.png" alt="">
+
+                <div class="content">
+                    <h3>Zapato</h3>
+                    <div class="price">s/120.99 <span>s/666</span></div>
+                    <p>2 colores</p>
+                    <a href="#" class="btn">Pedir</a>
+                </div>
+            </div>
+
+        </div>
+    
+    </section>
+
+    
+    <!--Sección últimos productos-->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"><span>últimos productos</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/producto-1.png" alt="">
+
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">s/120.99 <span>s/666</span></div>
+                    <a href="#" class="btn">Pedir</a>
+                </div>
+                
+            </div>
+
+            <div class="box">
+                <img src="images/producto-1.png" alt="">
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">s/120.99 <span>s/666</span></div>
+                    <a href="#" class="btn">Pedir</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/producto-1.png" alt="">
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">s/120.99 <span>s/666</span></div>
+                    <a href="#" class="btn">Pedir</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/producto-1.png" alt="">
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">s/120.99 <span>s/666</span></div>
+                    <a href="#" class="btn">Pedir</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/producto-1.png" alt="">
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">s/120.99 <span>s/666</span></div>
+                    <a href="#" class="btn">Pedir</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/producto-1.png" alt="">
+                <div class="content">
+                    <h3>nike shoes</h3>
+                    <div class="price">s/120.99 <span>s/666</span></div>
+                    <a href="#" class="btn">Pedir</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+
+     <!--Sección Footer-->
+     <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Nuestras tiendas</h3>
+                <a href="#">Lima - Perú</a>
+                <a href="#">Puesto - 1</a>
+                <a href="#">Puesto - 2</a>
+            </div>
+
+            <div class="box">
+                <h3>Links rápidos</h3>
+                <a href="#">Home</a>
+                <a href="#">productos</a>
+                <a href="#">Puesto - 2</a>
+            </div>
+
+            <div class="box">
+                <h3>Contacto</h3>
+                <a href="#">999 999 999</a>
+                <a href="#">Saenz@gmail.com</a>
+                <a href="#">Lima, perú</a>
+            </div>
+
+            <div class="box">
+                <h3>Síguenos</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">Tik tok</a>
+            </div>
+
+            <div class="credit">creado por <span> mr.Nil</span>| todos los derechos reservados</div>
+
+        </div>
+
+     </section>
+
+    
+
+
+<!--custom js file link-->   
+<script src="script.js"></script> 
+</body>
+</html>
