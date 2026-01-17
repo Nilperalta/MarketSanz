@@ -455,13 +455,13 @@ header .icons a:hover{
     font-size: 1.7rem;
 }
 
-.destacados .box-container .box .content .price{
+.destacados .box-container .box .content .price .product-price{
     font-size: 1.2rem;
     font-weight: bold;
     color: #333;
 }
 
-.destacados .box-container .box .content .price span{
+.destacados .box-container .box .content .price .old-price{
     color: var(--orange);
     font-size: 1rem;
     text-decoration: line-through;
@@ -497,6 +497,7 @@ header .icons a:hover{
 
 .products .box-container .box .content{
     /*border: 1rem solid yellow;*/
+    padding-bottom: 2rem;
 }
 
 .products .box-container .box img{
@@ -515,14 +516,14 @@ header .icons a:hover{
     font-size: 1.7rem;
 }
 
-.products .box-container .box .content .price{
+.products .box-container .box .content .price .product-price{
     color: var(--black);
     font-size: 1.2rem;
     font-weight: bold;
     color: #333;
 }
 
-.products .box-container .box .content .price span{
+.products .box-container .box .content .price .old-price{
     color: var(--orange);
     font-size: 1rem;
     text-decoration: line-through;
