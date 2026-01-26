@@ -33,7 +33,7 @@ function prev(){
 
 
 
-const phoneNumber = "51926588816"; // 👈 número del negocio
+const phoneNumber = "51926588816";
 
 document.querySelectorAll(".btn-whatsapp").forEach(btn => {
     btn.addEventListener("click", () => {

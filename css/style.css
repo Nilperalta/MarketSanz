@@ -428,7 +428,6 @@ header .icons a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
 .destacados .box-container .box{
@@ -544,7 +543,12 @@ header .icons a:hover{
 }
 
 .footer .box-container .box{
+    /*border: 1rem solid red;*/
     flex: 1 1 20rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 .footer .box-container .box h3{
@@ -577,6 +581,176 @@ header .icons a:hover{
 .footer .box-container .credit span{
     color: var(--orange);
 }
+
+
+/*-----------------------------------MUJERES---------------------------------------------*/
+
+.categoria-mujer{
+    /*border: 1rem solid red;*/
+    margin-top: 120px;
+}
+
+.categoria-mujer .box-container{
+    /*border: 1rem solid blue;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.categoria-mujer .box-container .box{
+    /*border: 1rem solid yellow;*/
+    display: flex;
+    flex-direction: column;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    background: #f9f9f9;
+    padding-bottom: 20px;
+}
+
+.categoria-mujer .box-container .box img{
+    /*border: 1rem solid purple;*/
+    height: 25rem;
+    object-fit: contain;
+    
+}
+
+.categoria-mujer .box-container .box .content a{
+    /*border: 1rem solid purple;*/
+    font-size: 1.8rem;
+    color: #666;
+}
+
+.categoria-mujer .box-container .box .content a:hover{
+    color: var(--orange);
+}
+
+.categoria-mujer .box-container .box:hover{
+    transform: scale(1.1);
+}
+
+
+
+/*ZAPATILLAS - MUJERES*/
+
+.categoria-productos{
+    /*border: 1rem solid red;*/
+
+}
+
+.categoria-productos .box-container{
+    /*border: 1rem solid blue;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.categoria-productos .box-container .box{
+    /*border: 1rem solid yellow;*/
+    display: flex;
+    flex-direction: column;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    background: #f9f9f9;
+    padding-bottom: 20px;
+}
+
+.categoria-productos .box-container .box img{
+    /*border: 1rem solid purple;*/
+    height: 25rem;
+    object-fit: contain;
+    
+}
+
+.categoria-productos .box-container .box .content a{
+    /*border: 1rem solid purple;*/
+    font-size: 1.8rem;
+    color: #666;
+}
+
+.categoria-productos .box-container .box .content a:hover{
+    color: var(--orange);
+}
+
+.categoria-productos .box-container .box:hover{
+    transform: scale(1.1);
+}
+
+.categoria-productos .box-container .box .content h3{
+    font-size: 1.7rem;
+}
+
+.categoria-productos .box-container .box .content .price .product-price{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.categoria-productos .box-container .box .content .price .old-price{
+    color: var(--orange);
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+.categoria-productos .box-container .box .content p{
+    font-size: 1.2rem;
+    color: #666;
+}
+
+
+/*--------------------------------HOMBRES---------------------------------------*/
+
+.categoria-hombre{
+    /*border: 1rem solid red;*/
+    margin-top: 120px;
+}
+
+.categoria-hombre .box-container{
+    /*border: 1rem solid blue;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.categoria-hombre .box-container .box{
+    /*border: 1rem solid yellow;*/
+    display: flex;
+    flex-direction: column;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    background: #f9f9f9;
+    padding-bottom: 20px;
+}
+
+.categoria-hombre .box-container .box img{
+    /*border: 1rem solid purple;*/
+    height: 25rem;
+    object-fit: contain;
+    
+}
+
+.categoria-hombre .box-container .box .content a{
+    /*border: 1rem solid purple;*/
+    font-size: 1.8rem;
+    color: #666;
+}
+
+.categoria-hombre .box-container .box .content a:hover{
+    color: var(--orange);
+}
+
+.categoria-hombre .box-container .box:hover{
+    transform: scale(1.1);
+}
+
+
+
+
 
 
 /*media queries*/
