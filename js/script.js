@@ -56,6 +56,42 @@ document.querySelectorAll(".btn-whatsapp").forEach(btn => {
 });
 
 
+// Submenú móvil
+document.querySelectorAll('.nav-item > a').forEach(link => {
+    link.addEventListener('click', function(e) {
+        if (window.innerWidth <= 768) {
+            e.preventDefault();
+            const parent = this.parentElement;
+            parent.classList.toggle('open');
+        }
+    });
+});
 
 
+// Cargar más productos
+const boxes = document.querySelectorAll('.categoria-productos .box');
+const btnCargarMas = document.getElementById('btnCargarMas');
+const cantidad = 12;
+let visibles = 0;
 
+function mostrarProductos() {
+    const limite = visibles + cantidad;
+    for (let i = visibles; i < limite && i < boxes.length; i++) {
+        boxes[i].classList.remove('hidden');
+    }
+    visibles = limite;
+    if (visibles >= boxes.length) {
+        btnCargarMas.style.display = 'none';
+    }
+}
+
+// Ocultar todos al inicio
+boxes.forEach(box => box.classList.add('hidden'));
+
+// Mostrar primeros 12
+mostrarProductos();
+
+// Botón cargar más
+if (btnCargarMas) {
+    btnCargarMas.addEventListener('click', mostrarProductos);
+}
