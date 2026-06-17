@@ -59,6 +59,7 @@ document.querySelectorAll(".btn-whatsapp").forEach(btn => {
 // Submenú móvil
 document.querySelectorAll('.nav-item > a').forEach(link => {
     link.addEventListener('click', function(e) {
+        e.preventDefault();
         if (window.innerWidth <= 768) {
             e.preventDefault();
             const parent = this.parentElement;
